@@ -1,11 +1,3 @@
-@props([
-    'name',
-    'value',
-    'target',
-    'clazz' => '',
-    'disabled' => false
-])
-
 <label class="{{ $clazz }} {{ $disabled ? 'cursor-not-allowed' : '' }}">
     <div class="w-5 h-5 md:mb-3 flex justify-center items-center bg-gray-100 border border-gray-400 rounded-full {{ $disabled ? 'opacity-0' : '' }}">
         <input wire:model="{{ $target }}" value="{{ $value }}"

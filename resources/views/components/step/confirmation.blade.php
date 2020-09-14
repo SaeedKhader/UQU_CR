@@ -1,9 +1,3 @@
-@props([
-'stepNumber',
-'stepTitle',
-'buttonText' => '',
-'target' => '',
-])
 <div id="step" class="flex">
     <div class="flex items-center flex-col relative">
         <div

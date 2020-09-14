@@ -1,9 +1,3 @@
-@props([
-'stepNumber',
-'stepTitle',
-'target' => '',
-'isCompleted' => '0'
-])
 <div id="step" class="flex">
     <div class="flex items-center flex-col relative">
         <div wire:dirty.class.remove="border-teal-700" wire:target="{{$target}}"

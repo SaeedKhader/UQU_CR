@@ -1,8 +1,3 @@
-@props([
-    'name',
-    'clazz' => '',
-    'error'
-])
 <div x-data="{ 'selected_id': '{{ $name }}' }">
     <div class="{{ $clazz }}">
     {{ $slot }}

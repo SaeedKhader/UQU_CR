@@ -1,11 +1,3 @@
-@props([
-    'name',
-    'value',
-    'target',
-    'clazz' => '',
-    'withIcon' => false
-])
-
 <div class="{{ $clazz }}">
     <label class="relative">
         <input wire:model="{{ $target }}" value="{{ $value }}"
