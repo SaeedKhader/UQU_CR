@@ -21794,6 +21794,26 @@ video {
           animation: bounce 1s infinite;
 }
 
+@font-face {
+  font-family: 'GE Dinar One';
+
+  src: url('/fonts/DroidArabicKufi.ttf');
+
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'GE Dinar One';
+
+  src: url('/fonts/DroidArabicKufiBold.ttf');
+
+  font-weight: bold;
+}
+
+* {
+  font-family: 'GE Dinar One';
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
